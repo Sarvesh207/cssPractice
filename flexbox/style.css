@@ -71,7 +71,7 @@ Values include flex-start, flex-end, center, stretch, and baseline. */
 - Overrides the align-items property for an individual flex item.
 - Allows you to align a single item differently from others. */
 
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -103,7 +103,7 @@ body {
   color: #fff;
 
   /* flexbox container properties */
-}
+} */
 
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS IN CSS
@@ -134,3 +134,25 @@ body {
 /* You can use the order property on flex items. Lower values move items to the beginning of the container, while higher values move items to the end. */
 
 /*? 3: Create a vertical navigation menu using Flexbox where the menu items are centered both horizontally and vertically within the container. */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  border:red solid 2px; 
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.item{
+  background-color: blueviolet;
+  height: 80px;
+  width: 80px;
+  border:2px soloid black;
+  margin:4px;
+  text-align: center;
+}
