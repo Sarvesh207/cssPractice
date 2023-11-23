@@ -1,0 +1,41 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%
+
+    
+    
+    
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color:#363062 ;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(1,300px);
+    grid-template-rows: repeat(4, 200px);
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+    background-color: #265073;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #22092C;
+    /* justify-self: stretch;
+     */
+     place-self: centre;
+}
